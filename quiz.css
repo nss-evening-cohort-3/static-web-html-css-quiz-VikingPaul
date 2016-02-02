@@ -1,8 +1,11 @@
-article {
+body {
   box-sizing: border-box;
+}
+article {
   border: 1px solid lightblue;
   width: 30%;
   display: inline-block;
+  margin-bottom: 5px;
 }
 li {
   list-style: none;
@@ -14,13 +17,17 @@ h1, img {
   margin: auto;
   text-align: center;
 }
+img {
+  width: 100%;
+  height: auto;
+}
 .description {
   text-align: justify;
 }
 .specs  li {
   font-weight: bold;
 }
-.pricing h3 {
+.avail {
   background-color: darkgray;
   color: yellow;
 }
