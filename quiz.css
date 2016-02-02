@@ -1,0 +1,26 @@
+article {
+  box-sizing: border-box;
+  border: 1px solid lightblue;
+  width: 30%;
+  display: inline-block;
+}
+li {
+  list-style: none;
+}
+header h1 {
+  border: 1px dotted lightgray;
+}
+h1, img {
+  margin: auto;
+  text-align: center;
+}
+.description {
+  text-align: justify;
+}
+.specs  li {
+  font-weight: bold;
+}
+.pricing h3 {
+  background-color: darkgray;
+  color: yellow;
+}
