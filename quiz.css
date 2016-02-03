@@ -34,8 +34,11 @@ img {
 .description {
   text-align: justify;
 }
-.specs  li {
+.specs  li, .pricing li {
   font-weight: bold;
+}
+.specs header, .pricing header {
+  padding-left: 15px;
 }
 .avail {
   background-color: darkgray;
