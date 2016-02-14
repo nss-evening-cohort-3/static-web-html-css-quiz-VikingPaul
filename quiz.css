@@ -1,0 +1,58 @@
+body {
+  box-sizing: border-box;
+  min-width: 100%;
+  margin: 0%;
+}
+header {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+article {
+  border: 1px solid lightblue;
+  width: 30%;
+  display: inline-block;
+  margin-bottom: 5px;
+  min-height: 500px;
+  margin: 1.4%;
+}
+li {
+  list-style: none;
+}
+header h1 {
+  border: 1px dotted lightgray;
+}
+h1, img {
+  margin: auto;
+  text-align: center;
+}
+img {
+  display: block;
+  width: 80%;
+  margin: auto;
+  max-height: 216px;
+  max-width: 216px;
+}
+.description {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.specs  li, .pricing li {
+  font-weight: bold;
+}
+.specs header, .pricing header {
+  padding-left: 15px;
+}
+.avail {
+  background-color: darkgray;
+  color: yellow;
+  margin-bottom: 15px;
+  padding-left: 7px;
+}
+footer {
+  font-size: .7em;
+  padding-left: 10px;
+}
+ul {
+  margin: 0;
+}
